@@ -142,7 +142,7 @@ export class ClientComponent implements AfterViewInit, OnInit, Controller {
   save(): void {
     const dialogRef = this.dialog.open(FormsComponent, {
       width: '400px',
-      data: { title: 'Add person', action: 'save' }
+      data: { title: 'Add plats', action: 'save' }
     });
 
     dialogRef.afterClosed().subscribe(result => {
